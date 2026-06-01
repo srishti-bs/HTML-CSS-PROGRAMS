@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Srishti B. S. | Portfolio</title>
+
+
+<meta property="og:title" content="Srishti B. S. | Portfolio">
+<meta property="og:description" content="CSE Student | Web Developer | AI Enthusiast">
+<meta property="og:image" content="https://srishtis-portfolio.netlify.app/portfolio.jpeg">
+<meta property="og:url" content="https://srishtis-portfolio.netlify.app/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI,sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#081229;
+color:white;
+}
+
+nav{
+position:fixed;
+top:0;
+width:100%;
+padding:20px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:rgba(8,18,41,.95);
+backdrop-filter:blur(10px);
+z-index:1000;
+}
+
+nav h2{
+color:#fff;
+}
+
+nav ul{
+display:flex;
+gap:30px;
+list-style:none;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+font-weight:500;
+}
+
+.hero{
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:120px 10%;
+}
+
+.hero-text{
+max-width:600px;
+}
+
+.hero h1{
+font-size:70px;
+margin-bottom:15px;
+}
+
+.hero h3{
+font-size:28px;
+color:#b388ff;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:18px;
+line-height:1.7;
+}
+
+.btn{
+display:inline-block;
+margin-top:25px;
+padding:12px 28px;
+background:linear-gradient(45deg,#7C3AED,#A855F7);
+border-radius:30px;
+text-decoration:none;
+color:white;
+font-weight:bold;
+}
+
+.profile{
+width:350px;
+height:450px;
+border-radius:25px;
+overflow:hidden;
+border:3px solid #7C3AED;
+box-shadow:0 0 30px rgba(124,58,237,.6);
+}
+
+.profile img{
+width:100%;
+height:100%;
+object-fit:cover;
+}
+
+section{
+padding:100px 10%;
+}
+
+.section-title{
+font-size:42px;
+margin-bottom:40px;
+color:#b388ff;
+}
+
+.about p{
+font-size:20px;
+line-height:1.8;
+}
+
+.skills{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:20px;
+}
+
+.skill{
+background:#111b38;
+padding:20px;
+text-align:center;
+border-radius:15px;
+transition:.3s;
+border:1px solid rgba(255,255,255,.1);
+}
+
+.skill:hover{
+transform:translateY(-8px);
+box-shadow:0 0 20px #7C3AED;
+}
+
+.contact-box{
+background:#111b38;
+padding:30px;
+border-radius:20px;
+line-height:2;
+}
+
+footer{
+text-align:center;
+padding:30px;
+color:#aaa;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<h2>Srishti B. S.</h2>
+
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<section class="hero">
+
+<div class="hero-text">
+
+<h1>Srishti B. S.</h1>
+
+<h3>CSE Student | Web Developer | AI Enthusiast</h3>
+
+<p>
+Passionate about technology, software development and artificial intelligence.
+I enjoy learning new technologies, exploring innovative ideas and applying
+my skills through practical experiences.
+</p>
+
+<a href="#contact" class="btn">
+Get In Touch
+</a>
+</div>
+
+<div class="profile">
+<img src="portfolio.jpeg" alt="Srishti">
+</div>
+
+</section>
+
+<section id="about" class="about">
+
+<h2 class="section-title">About Me</h2>
+
+<p>
+Hello! I am Srishti B. S., a second-year B.Tech Computer Science Engineering
+student passionate about technology, web development, and artificial intelligence.
+I enjoy learning new technologies, exploring innovative ideas, and applying my
+skills through practical experiences.
+
+This website serves as a simple introduction to my interests, skills,
+and learning journey.
+</p>
+
+</section>
+
+<section id="skills">
+
+<h2 class="section-title">Skills</h2>
+
+<div class="skills">
+
+<div class="skill">Python</div>
+<div class="skill">Java</div>
+<div class="skill">C</div>
+<div class="skill">SQL</div>
+<div class="skill">HTML</div>
+<div class="skill">CSS</div>
+<div class="skill">GitHub</div>
+<div class="skill">VS Code</div>
+<div class="skill">Google Colab</div>
+<div class="skill">Problem Solving</div>
+<div class="skill">Teamwork</div>
+<div class="skill">AI Fundamentals</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="section-title">Contact</h2>
+
+<div class="contact-box">
+
+<p>📧 srishtisrivatsa4@gmail.com</p>
+
+<p>
+💼
+<a href="https://www.linkedin.com/in/srishti-srivatsa"
+style="color:#b388ff;">
+linkedin.com/in/srishti-srivatsa
+</a>
+</p>
+
+<p>
+💻
+<a href="https://github.com/srishti-bs"
+style="color:#b388ff;">
+github.com/srishti-bs
+</a>
+</p>
+
+</div>
+
+</section>
+
+<footer>
+© 2026 Srishti B. S. | Portfolio Website
+</footer>
+
+</body>
+</html>
